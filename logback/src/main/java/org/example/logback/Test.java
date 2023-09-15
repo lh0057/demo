@@ -18,7 +18,7 @@ public class Test {
             i.byteValue();
         }catch (Exception e) {
             System.out.println(e.toString());
-            log.error(e.toString());
+            log.error("",e);
         }
     }
 }
